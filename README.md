@@ -1,5 +1,5 @@
 # react-folder-structure
-Creates a `_boilerplate` folder that contains a set of tested folder structures to maintain order in projects.
+Creates a `src/_boilerplate` folder that contains a set of tested folder structures to maintain order in projects.
 
 NOTE: This is highjly opionionated and should be viewed as such. 
 
@@ -24,6 +24,9 @@ We use the SCSS files along side the nested components, as such adding a .scss f
 3. Remove it, once copied not much point in leaving it active. 
 
 `npm remove react-folder-structure --save`
+
+OR Of course you could leve it installed if you like it. or just globally install it. 
+`npm install -g react-folder-structure --save`
 
 ## Folder Structure: 
 
