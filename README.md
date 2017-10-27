@@ -28,6 +28,17 @@ We use the SCSS files along side the nested components, as such adding a .scss f
 OR Of course you could leve it installed if you like it. or just globally install it. 
 `npm install -g react-folder-structure --save`
 
+
+## Optional
+You may be used to the layout of folders and sure they wont cause any havoc for your project. Running this command will just copy the folders into the source directory. 
+
+### Copy to SRC!
+`cp -R src/_boilerplate/* src/`
+
+### Remove _boilerplate
+`rm -rf src/_boilerplate`
+
+
 ## Folder Structure: 
 
 ```
