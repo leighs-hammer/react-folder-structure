@@ -1,0 +1,30 @@
+{
+  "name": "react-folder-structure",
+  "version": "0.0.1",
+  "description": "Opinionated folder layout for use with create-react-app. ( views/containers, components, routes, config, constants ) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "logthisout": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leighs-hammer/react-folder-structure.git"
+  },
+  "keywords": [
+    "React",
+    "Folder",
+    "Boilerplate"
+  ],
+  "author": "Leigh Barnes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leighs-hammer/react-folder-structure/issues"
+  },
+  "homepage": "https://github.com/leighs-hammer/react-folder-structure#readme",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
