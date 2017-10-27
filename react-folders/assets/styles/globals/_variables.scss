@@ -1,0 +1,59 @@
+//
+// 1. Colour palette
+// --------------------------------------
+
+// -- Brand
+$brand: (
+  yellow:       #fbb744,
+  blue-dark:    #3e8edd,
+  blue:         #1b71d6,
+  blue-light:   #5998c6,
+  grey-darker:  #2b2f3a, 
+  grey-dark:    #4a4f5e, 
+  grey:         #7b818e, 
+  grey-light:   #d9dad4, 
+  grey-lighter: rgba(#d9dad4, .1),
+  white:        #ffffff, 
+);
+
+// -- Font
+$font: (
+  default:      #2b2f3a,
+  light:        #5998c6
+);
+
+:root {
+  --font:       'CerebriSans', serif; 
+}
+
+// -- Text
+$text: (
+  body:              #2b2f3a,
+  hero:              rgb(255, 255, 255),
+  link:              rgb(1, 131, 140),
+  secondary:         #5B6770,
+  tertiary:          rgb(215, 215, 215),
+  color:             rgb(91, 103, 112)
+);
+
+// ripped CSS4 vars out of color map
+// css4 use var(--$name)
+//----------------------------------
+
+:root {
+  // each item in color map
+  @each $name, $color in $brand {
+    --#{$name}: $color;
+  }
+
+  // each item in color map
+  @each $name, $color in $font {
+    --type-#{$name}: $color;
+  }
+}
+
+:root {
+  --containerWidth: 1024px;
+  --gutter: 24px;
+  --transition: .36s ease-in-out;
+}
