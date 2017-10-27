@@ -9,6 +9,7 @@
   "bin": {
     "react-folder-structure": "./index.js"
   },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leighs-hammer/react-folder-structure.git"
