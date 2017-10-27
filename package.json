@@ -1,6 +1,6 @@
 {
   "name": "react-folder-structure",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Opinionated folder layout for use with create-react-app. ( views/containers, components, routes, config, constants ), note includes a JSLINT file as well.",
   "main": "index.js",
   "scripts": {

@@ -22,7 +22,8 @@ console.log(chalk.red('NOTE: A JSLINT file has been added to the root of your cu
  */
 
 chalk.green(shell.exec('mkdir src/_boilerplate'))
-console.log(chalk.red('1/')+chalk.red('3')+chalk.green(' : _boilerplate fodler added'))
+chalk.green(shell.exec('npm install react-folder-structure'))
+console.log(chalk.red('1/')+chalk.red('3')+chalk.green(' : _boilerplate fodler added, Files installed locally.'))
 
 shell.exec('cp -R ./node_modules/react-folder-structure/react-folders/* ./src/_boilerplate')
 console.log(chalk.red('2/')+chalk.red('3')+chalk.green(' : folder structure copied'))
