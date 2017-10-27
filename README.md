@@ -15,7 +15,8 @@ We use the SCSS files along side the nested components, as such adding a .scss f
 
 1. Install
 
-`npm install react-folder-structure --save-dev`
+`npm install -g react-folder-structure `
+(Installed globally is a good call for CLI helpers)
 
 2. Run it!
 
@@ -23,9 +24,10 @@ We use the SCSS files along side the nested components, as such adding a .scss f
 
 3. Remove it, once copied not much point in leaving it active. 
 
-`npm remove react-folder-structure --save`
+`npm remove -g react-folder-structure `
 
 OR Of course you could leve it installed if you like it. or just globally install it. 
+
 `npm install -g react-folder-structure --save`
 
 
