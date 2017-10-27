@@ -21,10 +21,10 @@ console.log(chalk.red('NOTE: A JSLINT file has been added to the root of your cu
  * Copy folders
  */
 
-chalk.green(shell.exec('mkdir _boilerplate'))
+chalk.green(shell.exec('mkdir src/_boilerplate'))
 console.log(chalk.red('1/')+chalk.red('3')+chalk.green(' : _boilerplate fodler added'))
 
-shell.exec('cp -R ./node_modules/react-folder-structure/react-folders/* ./_boilerplate')
+shell.exec('cp -R ./node_modules/react-folder-structure/react-folders/* ./src/_boilerplate')
 console.log(chalk.red('2/')+chalk.red('3')+chalk.green(' : folder structure copied'))
 
 shell.exec('cp ./node_modules/react-folder-structure/.eslintrc.js ./')

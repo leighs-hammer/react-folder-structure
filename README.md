@@ -6,6 +6,11 @@ NOTE: This is highjly opionionated and should be viewed as such.
 # JSLINT
 As we needed mandatory JSLINT configuration to keep the world in order, this is also bolted in here, you may need to roll your jslint back if required. 
 
+# SASS
+This is hard wired to install and setup SASS the way our team uses it. This will add requirements and scripts.
+We use the SCSS files along side the nested components, as such adding a .scss file will compile as .css in the same loaction with matching name. 
+
+
 ## Using it
 
 1. Install
