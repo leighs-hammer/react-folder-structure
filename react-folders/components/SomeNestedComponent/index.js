@@ -1,6 +1,6 @@
 import React from 'react';
 
-class SomeComponent extends React.Component {
+class SomeNestedComponent extends React.Component {
   constructor() {
     super();
     this.state = { someKey: 'someValue' };
@@ -15,4 +15,4 @@ class SomeComponent extends React.Component {
   }
 }
 
-export default SomeComponent;
+export default SomeNestedComponent;
