@@ -22,4 +22,18 @@ As we needed mandatory JSLINT configuration to keep the world in order, this is 
 
 ## Folder Structure: 
 
+```
+_boilerplate
+--| assets // Stylesheets, etc etc.
+--| blueprints // Mock data or blueprint files
+--| components // Where the react components live
+--| config // Config files? possibly sensitive
+--| constants // shared constants?
+--| containers // Often these are views? or loaders for views.
+--| helpers // We all know we need them some times.
+--| routes  // router stuffs.
+--| seed // Does your app seed some data? this is a good place for it.
+--| store // Potential location for store and logical points.
 
+.jslintrc.js => Added to root. 
+```
